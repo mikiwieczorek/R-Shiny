@@ -1,5 +1,5 @@
 # Human Single Nucleotide Polymorphism
 --------------------------------------
 
-App available at [R Shiny app](https://www.shinyapps.io/admin/#/application/1353018).
+App available at [R Shiny app](https://mikiwieczorek.shinyapps.io/firstapp/).
 
