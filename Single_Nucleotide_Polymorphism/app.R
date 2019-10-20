@@ -14,9 +14,10 @@ ui <- fluidPage(
    
    sidebarLayout(
       sidebarPanel(
-         selectInput("chr", "Chromosome", choices =c(1:22,'X','Y','M')),
+         selectInput("chr", "Chromosome", choices =c(1:22,'X','Y','M'), selected = 'X'),
          dateInput('date', label = 'Date of report'),
-         radioButtons('group', label = 'Group of chromosomes', choices = c('A','B','C'))
+         radioButtons('group', label = 'Group of chromosomes', choices = c('A','B','C'),
+                      selected = 'C')
       ),
       
       
